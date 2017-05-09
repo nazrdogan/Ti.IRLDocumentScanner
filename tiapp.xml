@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+	<id>com.nextchapter.documentscanner</id>
+	<name>Ti.IRLDocumentScanner</name>
+	<version>1.0</version>
+	<publisher>nazirdogan</publisher>
+	<url/>
+	<description>undefined</description>
+	<copyright>2017 by nazirdogan</copyright>
+	<icon>appicon.png</icon>
+	<fullscreen>false</fullscreen>
+	<navbar-hidden>false</navbar-hidden>
+	<analytics>true</analytics>
+	<guid>4ff8e3e0-9154-4a36-9333-08052f896c0c</guid>
+	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<property name="run-on-main-thread" type="bool">true</property>
+	<ios>
+		<team-id>8JL6T3DV5M</team-id>
+		<enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+		<use-app-thinning>true</use-app-thinning>
+		<use-jscore-framework>true</use-jscore-framework>
+		<plist>
+			<dict>
+				<key>UISupportedInterfaceOrientations~iphone</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+				</array>
+				<key>UISupportedInterfaceOrientations~ipad</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+					<string>UIInterfaceOrientationPortraitUpsideDown</string>
+					<string>UIInterfaceOrientationLandscapeLeft</string>
+					<string>UIInterfaceOrientationLandscapeRight</string>
+				</array>
+				<key>UIRequiresPersistentWiFi</key>
+				<false/>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+				<key>UIStatusBarHidden</key>
+				<false/>
+				<key>UIStatusBarStyle</key>
+				<string>UIStatusBarStyleDefault</string>
+			</dict>
+			<dict>
+				<key>NSContactsUsageDescription</key>
+				<string>Can we use to your contacts?</string>
+				<key>NSCameraUsageDescription</key>
+				<string>Can we use your camera?</string>
+				<key>NSCalendarsUsageDescription</key>
+				<string>Can we use your calendar?</string>
+				<key>NSPhotoLibraryUsageDescription</key>
+				<string>Can we save to your library?</string>
+				<key>NSMicrophoneUsageDescription</key>
+				<string>Can we use your microphone?</string>
+			</dict>
+		</plist>
+	</ios>
+	<android xmlns:android="http://schemas.android.com/apk/res/android"/>
+	<mobileweb>
+		<precache/>
+		<splash>
+			<enabled>true</enabled>
+			<inline-css-images>true</inline-css-images>
+		</splash>
+		<theme>default</theme>
+	</mobileweb>
+	<modules>
+		<module platform="iphone">hyperloop</module>
+		<module platform="commonjs">ti.cloud</module>
+	</modules>
+	<deployment-targets>
+		<target device="android">false</target>
+		<target device="ipad">true</target>
+		<target device="iphone">true</target>
+		<target device="mobileweb">false</target>
+	</deployment-targets>
+	<sdk-version>6.0.4.GA</sdk-version>
+	<plugins>
+		<plugin version="1.0">ti.alloy</plugin>
+		<plugin>hyperloop</plugin>
+	</plugins>
+	<property name="appc-app-id" type="string">591161e058096658df466b84</property>
+	<property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+	<property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+	<property name="acs-oauth-secret-development" type="string">MaLsQN2p9UfnGsJ2aumYe12VqpUQAaKh</property>
+	<property name="acs-oauth-key-development" type="string">yPEEtuek5fMwgR8IjY5644MpIR6MlPOg</property>
+	<property name="acs-api-key-development" type="string">1hTeETIy6XdvDrw6JsiVg2QYyUkpsL0L</property>
+	<property name="acs-username-development" type="string">appc_app_user_dev</property>
+	<property name="acs-password-development" type="string">X74Cgcu5jfUBg2hj3E</property>
+	<property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+	<property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+	<property name="acs-oauth-secret-production" type="string">DK2upDxzic5ev95mipE0JukUB89OcMZG</property>
+	<property name="acs-oauth-key-production" type="string">qeLV0STV6pM7aPxJ18NPukSKYWnqpcxc</property>
+	<property name="acs-api-key-production" type="string">XbWVXu84sleeeERIRuambMEUYBLnrt3R</property>
+	<property name="acs-username-production" type="string">appc_app_user</property>
+	<property name="acs-password-production" type="string">fYoi58cau6SlXV0Kvg</property>
+	<property name="appc-org-id" type="string">100009837</property>
+	<property name="appc-creator-user-id" type="string">02e5c044-e4b0-45c2-b290-915d258323be</property>
+</ti:app>

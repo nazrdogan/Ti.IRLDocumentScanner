@@ -1,0 +1,1 @@
+../../../IRLDocumentScanner/Source/Public/IRLScannerViewController.h
